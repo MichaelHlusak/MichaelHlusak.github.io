@@ -8,6 +8,7 @@ Colors codes comminly used
 *{
   font-family: 'Josefin Sans', sans-serif;
 }
+
 .video-container {
     position: relative;
     padding-bottom: 73.56%;
@@ -93,7 +94,7 @@ Colors codes comminly used
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 0.0;
   transition: 0.5s ease;
   background-color: black;
 }
@@ -140,7 +141,7 @@ footer{
     padding: 35px 0px 25px 0px;
 }
     /*This is for the toolbar only*/
-	@media (min-width: 767px){ 
+	@media (min-width: 1px){ 
         .dropdown-menu .dropdown-toggle:after{ /* for nav bar */
 			border-top: .3em solid transparent;
 		    border-right: 0;
@@ -174,5 +175,17 @@ footer{
       background: url("../images/itascSmall.png") no-repeat 50% 50%;
       background-size: cover;
   }
+    .overlays {/*content cards*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  transition: 0.5s ease;
+  background-color: black;
+}
   
 }
